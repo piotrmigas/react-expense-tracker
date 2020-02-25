@@ -1,15 +1,15 @@
-export const deleteTransaction = id => dispatch => {
-  dispatch({
+export const deleteTransaction = id => {
+  return {
     type: "DELETE_TRANSACTION",
     payload: id
-  });
+  };
 };
 
-export const addTransaction = transaction => dispatch => {
-  dispatch({
+export const addTransaction = transaction => {
+  return {
     type: "ADD_TRANSACTION",
     payload: transaction
-  });
+  };
 };
 
 export const handleChange = (value, field) => {
