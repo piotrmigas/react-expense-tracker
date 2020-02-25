@@ -33,6 +33,7 @@ const AddTransaction = ({ addTransaction, amount, name, handleChange }) => {
             type="number"
             onChange={e => handleChange(e.target.value, "amount")}
             placeholder="Enter amount..."
+            step="0.01"
           />
         </div>
         <button className="btn">Add transaction</button>
