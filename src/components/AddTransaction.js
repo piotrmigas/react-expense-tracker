@@ -18,7 +18,7 @@ const AddTransaction = ({ addTransaction, amount, name, handleChange }) => {
       <h3>Add new transaction</h3>
       <form onSubmit={onSubmit}>
         <div className="form-control">
-          <label htmlFor="text">Name</label>
+          <label htmlFor="text">Title</label>
           <input
             type="text"
             onChange={e => handleChange(e.target.value, "name")}
