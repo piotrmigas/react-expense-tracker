@@ -10,7 +10,7 @@ const Transaction = ({ transaction, deleteTransaction }) => {
       {transaction.text}{" "}
       <span>
         {sign}
-        {Math.abs(transaction.amount)} EUR
+        {Math.abs(transaction.amount)} PLN
       </span>
       <button className="delete-btn" onClick={() => deleteTransaction(transaction.id)}>
         x

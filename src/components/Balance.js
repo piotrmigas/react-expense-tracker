@@ -7,7 +7,7 @@ const Balance = ({ transactions }) => {
   return (
     <>
       <h4>Your balance:</h4>
-      <h1 id="balance">{total} EUR</h1>
+      <h1 id="balance">{total} PLN</h1>
     </>
   );
 };
