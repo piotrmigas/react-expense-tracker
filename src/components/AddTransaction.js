@@ -11,6 +11,7 @@ const AddTransaction = ({ addTransaction, amount, name, handleChange }) => {
       amount: +amount
     };
     addTransaction(newTransaction);
+    e.target.reset();
   };
 
   return (
